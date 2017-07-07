@@ -3,6 +3,5 @@ type public_adsprpcd_file, file_type;
 type sysfs_fingerprint, fs_type, sysfs_type;
 type proc_dt2w, fs_type, proc_type;
 type thermal_data_file, file_type, data_file_type;
-type proc_sched_energy_aware, proc_type, fs_type;
 
 

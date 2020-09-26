@@ -211,7 +211,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.ims_volte_enable=1 \
     persist.radio.videopause.mode=1 \
     persist.data.iwlan.enable=true \
-    persist.radio.VT_HYBRID_ENABLE=1
+    persist.radio.VT_HYBRID_ENABLE=1 \
+    persist.vendor.radio.mt_sms_ack=30
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \

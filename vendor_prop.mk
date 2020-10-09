@@ -211,3 +211,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #disable dual isp sync by default
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.camera.dual.isp.sync=0
+
+# Configure dex2oat
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.boot-dex2oat-threads=8 \
+    dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.dex2oat-threads=8 \
+    dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.image-dex2oat-threads=8

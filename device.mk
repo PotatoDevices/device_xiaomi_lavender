@@ -21,9 +21,8 @@
 # definition file).
 #
 
-# Inherit common tree and GCam makefiles
+# Inherit common tree Makefiles
 $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
-$(call inherit-product-if-exists, packages/apps/GoogleCamera/gcam.mk)
 
 # Device Path
 DEVICE_PATH := device/xiaomi/lavender
@@ -35,7 +34,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
 	 $(DEVICE_PATH)/overlay \
-	 $(DEVICE_PATH)/overlay-evo
 
 # APEX
 ENABLE_APEX := true

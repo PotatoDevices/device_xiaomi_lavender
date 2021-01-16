@@ -31,4 +31,7 @@
     <!-- Multi user switch has some intrinsic padding to it -->
     <dimen name="multi_user_switch_keyguard_margin">25px</dimen>
     <dimen name="keyguard_carrier_text_margin">55px</dimen>
+
+    <!-- QS Tiles background size // default is 44.0 | maximum is 47.5 (for lavender) // -->
+    <dimen name="qs_tile_background_size">46.5dp</dimen>
 </resources>

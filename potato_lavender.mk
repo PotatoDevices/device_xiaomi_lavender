@@ -34,6 +34,7 @@ $(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOTANIM_LOW_RES := true
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \

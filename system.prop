@@ -14,3 +14,6 @@ persist.imx376_ofilm.light.lux=280
 ro.eyecare.brightness.threshold=3
 ro.eyecare.brightness.level=8
 ro.hist.brightness.threshold=5
+
+# Display Cutout
+ro.potato.has_cutout=true

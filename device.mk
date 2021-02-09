@@ -96,10 +96,3 @@ PRODUCT_PACKAGES += \
 
 # Vendor files
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
-
-# AOSP DEVICE
-PRODUCT_NAME := potato_lavender
-PRODUCT_DEVICE := lavender
-PRODUCT_MODEL := Redmi Note 7 (AOSP)
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MANUFACTURER := Xiaomi

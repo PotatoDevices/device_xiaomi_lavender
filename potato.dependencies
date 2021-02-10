@@ -12,7 +12,7 @@
     "target_path" : "vendor/xiaomi/sdm660-common"
   },
   {
-    "repository"  : "kernel_xiaomi_sdm660",
+    "repository"  : "kernel_xiaomi_lavender",
     "target_path" : "kernel/xiaomi/sdm660"
   }
 ]

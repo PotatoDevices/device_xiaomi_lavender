@@ -20,5 +20,23 @@
     "repository": "etahamad/vendor_xiaomi_dirac",
     "target_path": "vendor/xiaomi/dirac",
     "branch": "dumaloo-release"
+  },
+  {
+    "remote": "github",
+    "repository": "etahamad/hardware_qcom-caf_media_msm8998",
+    "target_path": "hardware/qcom-caf/sdm660/media",
+    "branch": "11"
+  },
+  {
+    "remote": "github",
+    "repository": "etahamad/hardware_qcom-caf_display_msm8998",
+    "target_path": "hardware/qcom-caf/sdm660/display",
+    "branch": "11-re"
+  },
+  {
+    "remote": "github",
+    "repository": "etahamad/android_hardware_qcom_audio",
+    "target_path": "hardware/qcom-caf/sdm660/audio",
+    "branch": "arrow-11.0-caf-msm8998"
   }
 ]

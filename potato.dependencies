@@ -14,5 +14,11 @@
   {
     "repository"  : "kernel_xiaomi_lavender",
     "target_path" : "kernel/xiaomi/sdm660"
+  },
+  {
+    "remote": "github",
+    "repository": "etahamad/vendor_xiaomi_dirac",
+    "target_path": "vendor/xiaomi/dirac",
+    "branch": "dumaloo-release"
   }
 ]

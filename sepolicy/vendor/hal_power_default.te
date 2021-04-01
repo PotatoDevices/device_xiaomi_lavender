@@ -1,3 +1,5 @@
+typeattribute hal_power_default mlstrustedsubject;
+
 # Allow writing to files in /proc/tp_gesture
 allow hal_power_default proc:file rw_file_perms;
 allow hal_power_default proc:dir search;
@@ -10,5 +12,9 @@ allow hal_power_default { sysfs_devfreq sysfs_kgsl }:{ file lnk_file } rw_file_p
 allow hal_power_default sysfs_devices_system_cpu:file rw_file_perms;
 allow hal_power_default device_latency:chr_file rw_file_perms;
 allow hal_power_default latency_device:chr_file rw_file_perms;
+
+# Set scheduling info for apps (for adpf)
+allow hal_power_default appdomain:process { getsched setsched };
+allow hal_power_default self:capability sys_nice;
 
 set_prop(hal_power_default, vendor_power_prop)

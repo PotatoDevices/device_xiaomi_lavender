@@ -17,12 +17,6 @@
   },
   {
     "remote": "github",
-    "repository": "etahamad/vendor_xiaomi_dirac",
-    "target_path": "vendor/xiaomi/dirac",
-    "branch": "dumaloo-release"
-  },
-  {
-    "remote": "github",
     "repository": "AOSP-11/hardware_qcom-caf_display_msm8998",
     "target_path": "hardware/qcom-caf/msm8998-r/display",
     "branch": "11"  

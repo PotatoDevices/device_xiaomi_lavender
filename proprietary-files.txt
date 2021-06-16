@@ -1573,10 +1573,6 @@ vendor/lib/libOmxWmaDec.so|1905db76bd6f9d42d1b4d974fd744c026b4b580a
 vendor/lib/libvqzip.so|d037d6e54f6cff1755acb5e1f04a43536bcb8acf
 vendor/lib64/libgpustats.so|b7f9e1ee3f0d86e87d96db55404f3507db8cac6f
 
-# Perf - from taimen QQ3A.200705.002
-vendor/lib/libqti-perfd-client.so|c1c7482b58fbe012f934b54bea78ff52068ea530
-vendor/lib64/libqti-perfd-client.so|d16c17427d6383368d035c9bf028630837b3b969
-
 # IRQ balance - from jasmine
 vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
 

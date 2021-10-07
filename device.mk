@@ -132,6 +132,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.4:64 \
@@ -416,6 +417,8 @@ PRODUCT_PACKAGES += \
 # Update this list with what each blob is actually for
 # libicuuc: vendor.qti.hardware.qteeconnector@1.0-impl
 # libstdc++: camera.sdm660
+$(foreach target, $(shell cat $(LOCAL_PATH)/vndk/vndk.txt), $(eval PRODUCT_PACKAGES += $(target).vendor))
+
 PRODUCT_PACKAGES += \
     com.android.vndk.current.on_vendor \
     libicuuc.vendor \

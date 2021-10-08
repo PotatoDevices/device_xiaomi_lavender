@@ -148,8 +148,8 @@ PRODUCT_PACKAGES += \
     camera.sdm660_shim
 
 # Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
+#PRODUCT_PACKAGES += \
+#    XiaomiParts
 
 # Display
 PRODUCT_PACKAGES += \

@@ -1,2 +1,5 @@
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
+
+# Radio
+persist.sys.fflag.override.settings_provider_model=false

@@ -51,7 +51,7 @@ on init
     chmod 0664 /sys/class/kgsl/kgsl-3d0/idle_timer
     chmod 0664 /sys/class/devfreq/soc:qcom,cpubw/min_freq
     chmod 0664 /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hyst_trigger_count
-
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hist_memory
 
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}

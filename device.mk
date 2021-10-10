@@ -384,8 +384,7 @@ PRODUCT_PACKAGES += \
 
 # AOT Preload
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
-    NexusLauncherRelease
+    SystemUI
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
@@ -423,10 +422,7 @@ PRODUCT_PACKAGES += \
 $(foreach target, $(shell cat $(LOCAL_PATH)/vndk/vndk.txt), $(eval PRODUCT_PACKAGES += $(target).vendor))
 
 PRODUCT_PACKAGES += \
-    com.android.vndk.current.on_vendor \
-    libicuuc.vendor \
-    libstdc++.vendor \
-    libgui_vendor
+    libstdc++.vendor
 
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v29/arm64/arch-arm-armv8-a/shared/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcutils-v29.so \

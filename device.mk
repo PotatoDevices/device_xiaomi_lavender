@@ -177,7 +177,6 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData \
     libqdMetaData.system \
-    libtinyxml \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor
 
@@ -394,7 +393,6 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
-    librmnetctl \
     libprotobuf-cpp-full \
     rild
 
@@ -440,7 +438,7 @@ PRODUCT_BOOT_JARS += \
 
 # Touchscreen
 PRODUCT_PACKAGES += \
-    libtinyxml2
+    libtinyxml2 
 
 # USB
 PRODUCT_PACKAGES += \

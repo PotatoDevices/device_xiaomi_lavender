@@ -1524,6 +1524,8 @@ vendor/lib64/libqseed3.so|24ae4dfe5d9fa27a858b64dfafd1c713da6e6fde
 vendor/lib64/libsdm-diag.so|6eb99b83036f917070393fa067eaebc50a5ff307
 -vendor/lib64/libsdm-disp-vndapis.so|ba4978c373f9892d884d07c4cf25dba9d73fda1f
 vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
+vendor/lib/libtinyxml.so
+vendor/lib64/libtinyxml.so
 
 # Graphics (SDM) - from lavender
 vendor/lib/libsdm-color.so|2856bf71af603076b23d4c206dacba7c82350387
@@ -1729,6 +1731,8 @@ vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql|b4a825ba20fea3e
 vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql|0571aacaf9fc0868c48bba2f7542f5b4e68c9022
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql|0734c6a2863edadc7a8422b8310d267c594d11a0
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|fcb2cba3bfd718ecdc8d3cfac3a0b2b2c7e8c506
+vendor/lib/librmnetctl.so
+vendor/lib64/librmnetctl.so
 
 # Radio (IMS) - from LA.UM.8.2.r1-06700-sdm660.0
 -product/app/imssettings/imssettings.apk:system_ext/app/imssettings/imssettings.apk|5e24e30b6fb5906e13fd8db1f57e30b8b59028ff

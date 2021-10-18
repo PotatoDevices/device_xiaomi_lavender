@@ -99,10 +99,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,com.longcheertel.cit \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,com.longcheertel.cit \
-    persist.vendor.camera.privapp.list=org.codeaurora.snapcam \
-    persist.camera.privapp.list=org.codeaurora.snapcam \
     persist.vendor.camera.HAL3.enabled=1
 
 # Camera Lavender Specific
@@ -113,14 +109,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.imglib.usefdlite=1 \
     persist.vendor.camera.expose.aux=1 \
     persist.vendor.camera.awb.sync=2 \
-    persist.radio.VT_CAM_INTERFACE=2  \
     persist.sys.camera.camera2=true \
-    vendor.video.disable.ubwc=1
-
-# CNE and DPM
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.cne.feature=1 \
-    persist.vendor.dpm.feature=1
+    vendor.video.disable.ubwc=1   
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -137,10 +127,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     ro.vendor.display.sensortype=2 \
     vendor.gralloc.enable_fb_ubwc=1 \
-    vendor.display.disable_skip_validate=1 \
     vendor.display.enable_default_color_mode=0 \
-    sdm.debug.disable_skip_validate=1 \
-    persist.hwc.enable_vds=1 \
     ro.vendor.display.cabl=0 \
 
 # DRM
@@ -153,29 +140,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
-    media.aac_51_output_enabled=true \
     media.stagefright.enable-aac=true \
     media.stagefright.enable-http=true \
     media.stagefright.enable-player=true \
     media.stagefright.enable-qcp=true \
     media.stagefright.enable-scan=true \
-    persist.mm.enable.prefetch=true \
     media.stagefright.thumbnail.prefer_hw_codecs=true \
-    vidc.enc.target_support_bframe=1 \
     vendor.vidc.enc.disable_bframes=1 \
     vendor.vidc.dec.enable.downscalar=1 \
-    vendor.mm.enable.qcom_parser=13631487 \
-    mmp.enable.3g2=true \
-    mm.enable.smoothstreaming=true \
     vidc.enc.dcvs.extra-buff-count=2
-
-# Memory optimizations
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Netmgr
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.data.df.dev_name=rmnet_usb0 \
     persist.vendor.data.iwlan.enable=true \
     persist.vendor.data.mode=concurrent \
     ro.vendor.use_data_netmgrd=true
@@ -202,23 +178,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1 \
     persist.vendor.radio.data_con_rprt=1 \
-    ril.subscription.types=NV,RUIM\
     ro.telephony.default_network=22,20 \
-    telephony.lteOnCdmaDevice=1 \
     vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
-    DEVICE_PROVISIONED=1 \
-    persist.vendor.qti.telephony.vt_cam_interface=1 \
-    persist.dbg.ims_volte_enable=1 \
-    persist.radio.videopause.mode=1 \
-    persist.data.iwlan.enable=true \
-    persist.radio.VT_HYBRID_ENABLE=1 \
     persist.vendor.radio.mt_sms_ack=30
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sdk.sensors.gestures=false \
     ro.vendor.sensors.cmc=false \
-    ro.vendor.sensors.dev_ori=false
+    ro.vendor.sensors.dev_ori=false \
     ro.vendor.sensors.facing=false \
     ro.vendor.sensors.mot_detect=true \
     ro.vendor.sensors.pmd=true \
@@ -233,18 +201,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_backpressure=1 
 
-# System restart
-    PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.ssr.restart_level=ALL_ENABLE
-
 # QCOM
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.timed.enable=true \
     persist.vendor.qcomsysd.enabled=1
-
-# Thermal configs path
-PRODUCT_PROPERTY_OVERRIDES += \
-    sys.thermal.data.path=/data/vendor/thermal/
 
 # Time
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -253,10 +212,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # disable PQ feature by default
 PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.vidc.enc.disable.pq=true
-
-# Zygote preforking
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.device_config.runtime_native.usap_pool_enabled=true
 
 #disable dual isp sync by default
 PRODUCT_PROPERTY_OVERRIDES += \

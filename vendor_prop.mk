@@ -180,6 +180,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.data_con_rprt=1 \
     ro.telephony.default_network=22,20 \
     vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
+    persist.sys.fflag.override.settings_provider_model=false \
     persist.vendor.radio.mt_sms_ack=30
 
 # Sensors

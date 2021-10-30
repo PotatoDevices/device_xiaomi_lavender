@@ -120,6 +120,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.recomputecrop=0 \
     debug.hwui.use_buffer_age=false \
     ro.opengles.version=196610 \
     ro.vendor.display.sensortype=2 \

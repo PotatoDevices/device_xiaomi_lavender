@@ -1632,7 +1632,6 @@ vendor/lib64/libqsocket.so|40816476d857f2ad07490415f6ff7433517ccef8
 
 # Radio - from LA.UM.8.2.r1-06700-sdm660.0
 -product/app/QtiTelephonyService/QtiTelephonyService.apk:system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|9758fbbaa7b2a18c01a32200b3a86a4dbc798d3c
--product/app/datastatusnotification/datastatusnotification.apk:system_ext/app/datastatusnotification/datastatusnotification.apk|4685df4bb2446950bcb37da83f4acefc69bfcdc3
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|71d083671c3ea4cd5e287a63fb254bb0ab60ed20
 product/etc/permissions/qcrilhook.xml:system_ext/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml:system_ext/etc/permissions/telephony_product_privapp-permissions-qti.xml|68901007ba1a48ceb1b728fc3b5483dd51b5e3a0

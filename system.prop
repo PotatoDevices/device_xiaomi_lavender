@@ -14,6 +14,3 @@ telephony.lteOnCdmaDevice=1
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
-
-# IORap
-persist.device_config.runtime_native_boot.iorap_readahead_enable=true

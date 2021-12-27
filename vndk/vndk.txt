@@ -2,6 +2,7 @@ libunwindstack
 libutils
 libutilscallstack
 libz
+libtinyxml
 android.frameworks.automotive.display@1.0
 android.frameworks.cameraservice.common@2.0
 android.frameworks.cameraservice.device@2.0

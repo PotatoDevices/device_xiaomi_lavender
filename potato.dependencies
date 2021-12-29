@@ -1,12 +1,10 @@
 [
   {
     "repository": "kernel_xiaomi_lavender",
-    "target_path": "kernel/xiaomi/lavender",
-    "branch": "frico-release"
+    "target_path": "kernel/xiaomi/lavender"
   },
   {
     "repository": "vendor_xiaomi_lavender",
-    "target_path": "vendor/xiaomi/lavender",
-    "branch": "frico-release",
+    "target_path": "vendor/xiaomi/lavender"
   }
 ]

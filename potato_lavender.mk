@@ -27,6 +27,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lavender" \
     PRODUCT_NAME="lavender" \
-    PRIVATE_BUILD_DESC="google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys"
+    PRIVATE_BUILD_DESC="google/redfin/redfin:12/SQ3A.220605.009.A1/8643238:user/release-keys"
 
-BUILD_FINGERPRINT :="google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys"
+BUILD_FINGERPRINT :="google/redfin/redfin:12/SQ3A.220605.009.A1/8643238:user/release-keys"
